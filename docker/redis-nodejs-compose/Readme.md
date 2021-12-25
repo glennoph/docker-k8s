@@ -14,3 +14,7 @@
 
 `docker-compose down`
 
+* show status of the docker-compose containers
+
+`docker-compose ps`
+
