@@ -13,6 +13,14 @@
 * name: client-pod
 `kubectl get services`
 * name: client-node-port
+### get detailed info of an object
+
+`kubectl describe pod client-pod`
+* pod "client-pod" 
+
+`kubectl describe service client-node-port`
+* service "client-node-port" 
+
 ### delete
 
 `kubectl delete pod client-pod`
